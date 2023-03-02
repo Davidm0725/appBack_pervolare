@@ -1,0 +1,27 @@
+@api = http://localhost:3000/api/categories
+
+### add a category
+POST {{api}}
+Content-Type: application/json
+
+{
+  "code": "category2",
+  "title": "trips",
+  "description": "some product"
+}
+
+### get categories
+{{api}}
+
+### delete category 
+DELETE {{api}}/13
+
+### update
+PUT {{api}}/11
+Content-Type: application/json
+
+{
+    "code": "RC-1",
+    "title": "RC",
+    "description": "seg life"
+}
