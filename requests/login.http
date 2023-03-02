@@ -2,11 +2,3 @@
 
 ## get user
 {{api}}/david@correo.com/123
-
-# POST {{api}}
-# Content-Type: application/json
-
-# {
-#   "email": "admin@correo.com",
-#   "pass": "admin456"
-# }
